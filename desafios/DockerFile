@@ -1,7 +1,0 @@
-FROM hello_fullcycle 
-MAINTAINER trintaeoitogc@gmail.com
-
-VOLUME ["~/my-git/maratona_fullcycle"]
-
-EXPOSE 2368
-CMD ["npm", "start"]

@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  app:
+    image: golang
+    container_name: hellofullcycle 
+    volumes:
+      - "./src:/go/src/"
+    ports:
+      - "80:8080"
+    working_dir: /home/guilherme/my-git/maratona_fullcycle/desafios/src/ 
+    command: go run hello_full_cycle.go
