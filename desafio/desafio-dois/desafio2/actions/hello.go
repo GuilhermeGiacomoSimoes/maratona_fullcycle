@@ -3,7 +3,7 @@ package actions
 import (
 
 	"net/http"
-	"github.com/gobuffalo/bufalo"
+	"github.com/gobuffalo/buffalo"
 )
 
 
